@@ -42,8 +42,8 @@ pipeline {
             echo "Setting up AWS credentials for Jenkins..."
             mkdir -p /var/lib/jenkins/.aws
             echo "[default]" > /var/lib/jenkins/.aws/credentials
-            echo "aws_access_key_id=AKIAYYJ25PZBUCJEKQ7R" >> /var/lib/jenkins/.aws/credentials
-            echo "aws_secret_access_key=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" >> /var/lib/jenkins/.aws/credentials
+            echo "aws_access_key_id=AKIAYYJ25PZBU" >> /var/lib/jenkins/.aws/credentials
+            echo "aws_secret_access_key=liqG9QNn5CkdkiIICYohyd9u7e" >> /var/lib/jenkins/.aws/credentials
             chown -R jenkins:jenkins /var/lib/jenkins/.aws
             '''
         }
